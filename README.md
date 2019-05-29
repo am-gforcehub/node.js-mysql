@@ -13,7 +13,7 @@ Get link to Node.js-MySQL instructions [here](https://docs.google.com/document/d
 ---
 Bamazon is a command line node application that mimics an Amazon storefront.  By using MySQL and Node.js the app will take in orders from customers and deplete stock from the store's inventory. 
 
-The following commands and the functions of these are noted below.
+The following command and the functions of this are noted below.
 
 Commands | Function
 ---------|---------
