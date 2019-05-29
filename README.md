@@ -17,12 +17,7 @@ The following commands and the functions of these are noted below.
 
 Commands | Function
 ---------|---------
-beginBamazon  | starts the beginProducts function when the node bamazonCustomer.js is initiated or the user completes a purchase
-beginProducts | takes the SELECT * FROM from the schema.sql and console logs all the columns and rows from the 'products' table created to the command line
-readBamazon | prompts a question to the user to ask what department they would like to shop in and based on the answer is taken to the function for that particular department using switch case/break statements
-" " Search | prompts a question as to what product and the quantity of the product they would like to purchase and console logs that information to the command line
-confirmPurchase  | prompts a question if they would like to confirm or cancel the purchase and updates the quantity of the item on the table  
-
+bamazonCustomer.js  | this command takes in the data from the 'products' table in the 'bamazon_db' created in the MySQL database, and console logs the data onto the command line.  Then this command prompts questions for the user in regards to the  product they would like to purchase, from what department they would like to purchase it, and the quantity of how many they would like to have.  The command then prompts a question to the user to either confirm or cancel the purchase.
 
 **Before you get started, make sure you have these node packages installed:**
 1. **mysql:** a driver to access and perform with MySQL on the application.
